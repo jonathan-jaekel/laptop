@@ -1,0 +1,16 @@
+#!/bin/sh
+
+brew tap caskroom/cask
+brew install brew-cask
+
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install spotify
+brew cask install flowdock
+brew cask install evernote
+brew cask install alfred
+brew cask install dash
+brew cask install iterm2
+
+brew install httpie
+
