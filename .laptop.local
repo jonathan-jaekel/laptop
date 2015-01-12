@@ -1,5 +1,18 @@
 #!/bin/sh
 
+echo
+echo 'Install manually:'
+echo
+echo ' Firefox: '
+echo ' - Ad blocker plus: https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/'
+echo ' - Ghostery: https://addons.mozilla.org/en-US/firefox/addon/ghostery/'
+echo ' Chrome: '
+echo ' - Ad blocker plus: https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb'
+echo ' - Ghostery: https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij'
+echo
+read -p 'ENTER to continue...'
+echo
+
 brew tap caskroom/cask
 brew install brew-cask
 
@@ -11,6 +24,10 @@ brew cask install evernote
 brew cask install alfred
 brew cask install dash
 brew cask install iterm2
+brew cask install flowdock
+brew cask install flux
+brew cask install 1password
+brew cask install firefox
 
 brew install httpie
 
